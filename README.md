@@ -97,7 +97,7 @@ Follow these steps to set up and run the RAG-based Q/A system. The project is st
 Clone the repository to your local system using Git:
 
 bash
-git clone https://github.com/Omshrivastav12/your-repo-name.git
+git clone https://github.com/pratadge00/your-repo-name.git
 cd your-repo-name
 
 
@@ -107,7 +107,7 @@ Below is the project structure for your reference:
 
 plaintext
 ├── Dataset/                         # Contains sample dataset (replaceable with your own data)
-│   └── quicksell_input.pdf          # Example input dataset
+│   └── Input.pdf          # Example input dataset
 ├── Vector_db_dir/                   # Directory containing the modular code
 │   ├── Functions.py                 # Script for reusable functions
 │   ├── main.py                      # Main script for execution
@@ -164,7 +164,7 @@ The project uses modular Python scripts for execution. Follow these steps:
 
 ### 6. Using Custom Files
 
-- **Dataset**: Replace the `quicksell_input.pdf` file in the `Dataset` folder with your own dataset if needed.
+- **Dataset**: Replace the `Input.pdf` file in the `Dataset` folder with your own dataset if needed.
 - **Vector_db_dir**: Contains modular scripts:
   - `Functions.py`: Defines reusable functions for the RAG system.
   - `main.py`: Orchestrates the execution of the system.
@@ -189,7 +189,7 @@ Now you’re all set to explore and enhance the RAG-based system!
 
 plaintext
 ├── Dataset/                         # Contains sample dataset (replaceable with your own data)
-│   └── quicksell_input.pdf          # Example input dataset
+│   └── Input.pdf          # Example input dataset
 ├── Vector_db_dir/                   # Directory containing the modular code
 │   ├── Functions.py                 # Script for reusable functions
 │   ├── main.py                      # Main script for execution
